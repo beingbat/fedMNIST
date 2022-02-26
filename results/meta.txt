@@ -1,0 +1,6 @@
+NIID complete
+clients: 1
+bacthsize=20
+classes=10
+items = 18544
+
