@@ -27,3 +27,6 @@ complete
 items count = 90704
 
 
+Binary: 6 clients: 3 have only 0s and 3 only 1s
+
+Conflict: 6 clients: 3 clients have images of 0 labelled as 0s and 3 have images of 0s labelled as 1
