@@ -1,6 +1,28 @@
-NIID complete
-clients: 1
-bacthsize=20
-classes=10
-items = 18544
+Model:
+tf.keras.models.Sequential([
+      tf.keras.layers.InputLayer(input_shape=(784,)),
+      tf.keras.layers.Dense(10, kernel_initializer='zeros'),
+      tf.keras.layers.Softmax(),
+  ])
+
+Loss: SparseCategoricalCrossentropy()
+Evaluation Metric: SparseCategoricalAccuracy()
+
+
+
+CLASSES = 10
+BATCH SIZE = 16
+
+
+NIID:
+
+complete
+items count = 92720
+
+
+IID:
+
+complete
+items count = 90704
+
 
